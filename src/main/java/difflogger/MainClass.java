@@ -1,4 +1,4 @@
-package com.neonex.diff.logger;
+package difflogger;
 
 import org.apache.commons.lang3.reflect.FieldUtils;
 
@@ -92,7 +92,7 @@ class UserDto {
 
     @Override
     public String toString() {
-        return "com.neonex.diff.logger.UserDto{" +
+        return "logger.UserDto{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
